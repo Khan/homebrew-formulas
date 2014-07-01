@@ -1,6 +1,6 @@
 require "formula"
 
-class Mogenerator < Formula
+class KaMogenerator < Formula
   homepage "https://github.com/rentzsch/mogenerator"
 
   head "https://github.com/rentzsch/mogenerator.git", :revision => "258832"
