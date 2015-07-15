@@ -10,6 +10,7 @@ class KaClone < Formula
 
   def install
     bin.install "bin/ka-clone"
+    prefix.install "templates"
   end
 
   test do
