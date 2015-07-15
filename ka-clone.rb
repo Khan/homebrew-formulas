@@ -13,6 +13,6 @@ class KaClone < Formula
   end
 
   test do
-    system "ka-clone --help"
+    system "#{bin}/ka-clone", "--help"
   end
 end
