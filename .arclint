@@ -1,0 +1,18 @@
+{
+  "linters": {
+    "README-spelling": {
+      "type": "spelling",
+      "include": "(README.md)"
+    },
+    "formula-syntax": {
+      "type": "ruby",
+      "include": "(\\.rb$)"
+    },
+    "brew-audit": {
+      "type": "script-and-regex",
+      "script-and-regex.script": "brew audit",
+      "script-and-regex.regex": "/^(?P<message>.*)$/m",
+      "include": "(\\.rb$)"
+    }
+  }
+}
