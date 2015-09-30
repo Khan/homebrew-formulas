@@ -3,8 +3,8 @@ class KhanLinter < Formula
   homepage "https://github.com/Khan/khan-linter"
   head "https://github.com/Khan/khan-linter.git"
 
-  url "https://github.com/Khan/khan-linter/archive/v1.1.1.tar.gz"
-  sha256 "3cb4e8efaebc36b2c98d02f19faffc00bf037cba7909d3065eca93a8437a7b43"
+  url "https://github.com/Khan/khan-linter/archive/v1.2.0.tar.gz"
+  sha256 "6d951bd9b496f0ab3061debfd6db03148afeddbfe444321319c8711116b79b0e"
 
   depends_on :python if MacOS.version <= :snow_leopard
 
@@ -27,7 +27,7 @@ class KhanLinter < Formula
       "linters.py",
       "runlint.py",
       "static_content_refs.py",
-      "util.py"
+      "lint_util.py"
     ]
     root_files.each { |f| prefix.install f }
 
