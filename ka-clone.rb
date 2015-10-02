@@ -2,11 +2,11 @@ class KaClone < Formula
   desc "Manages an isolated local gitconfig for cloned repositories"
   homepage "https://github.com/khan/ka-clone"
 
-  url "https://github.com/Khan/ka-clone/archive/v1.0.2.tar.gz"
-  sha256 "153ce8c7900bba546ca31d2ceb7ef5a404e53e7cb414691015e2e7d96275e441"
+  url "https://github.com/Khan/ka-clone/archive/v1.0.4.tar.gz"
+  sha256 "d33e9753ad15ad31af920541a64590f5a560ebbb0847aabeef19c6d04dbc0f70"
   # the revision should be omitted (default 0) unless you want to force a
   # reinstall without a corresponding version bump, see: http://git.io/vm4VO
-  revision 1
+  # revision 0
 
   head "https://github.com/khan/ka-clone.git"
 
