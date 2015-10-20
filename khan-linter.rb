@@ -3,8 +3,8 @@ class KhanLinter < Formula
   homepage "https://github.com/Khan/khan-linter"
   head "https://github.com/Khan/khan-linter.git"
 
-  url "https://github.com/Khan/khan-linter/archive/v1.2.0.tar.gz"
-  sha256 "6d951bd9b496f0ab3061debfd6db03148afeddbfe444321319c8711116b79b0e"
+  url "https://github.com/Khan/khan-linter/archive/v1.3.0.tar.gz"
+  sha256 "46d5c840e2398df87e7f7c9a3be97dd2743d440aaeb7660cf672c9c66e651680"
 
   depends_on :python if MacOS.version <= :snow_leopard
 
@@ -19,11 +19,11 @@ class KhanLinter < Formula
 
     # first, lets get all the library/executable files that live in root
     root_files = [
-      "compile_jsx_file",
       "githook.py",
       "hook_lib.py",
-      "jshint_reporter.js",
-      "jshintrc",
+      "eslint_reporter.js",
+      "eslintrc",
+      "lesshint_reporter.js",
       "linters.py",
       "runlint.py",
       "static_content_refs.py",
